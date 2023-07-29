@@ -1,0 +1,49 @@
+/* TableComponent.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+tr {
+  transition: background-color 0.3s;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* TableComponent.css */
+
+.delete-icon {
+  cursor: pointer;
+  color: rgb(164, 161, 161);
+}
